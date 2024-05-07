@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    body    {background-color: powderblue;}
-    h1      {color: blue;}
-    h2      {color: black}
-    h3      {color: red}
-    a       {color: blueviolet}
-</style>
-</head>
-</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: powderblue;
+}
